@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  width: 80%;
+  margin: 2em auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+form {
+  max-width: 480px;
+  margin: auto;
+}
+
+.header-container {
+  text-align: center;
+}
+
+.logo {
+  font-size: 2.1em;
+  padding-bottom: 0.3em;
+}
+span {
+  margin: -3px;
+}
+
+.blue {
+  color: royalblue;
+}
+.red {
+  color: red;
+}
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
+
+h2 {
+  font-weight: 500;
+  padding-bottom: 0.3em;
+}
+
+h4 {
+  padding-bottom: 0.3em;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.form-control {
+  padding: 1.5em 0 2.5em 0;
+  position: relative;
+}
+
+.form-control .text-input {
+  height: 50px;
+  width: 100%;
+  font-size: 1em;
+  padding: 0 1em;
+  border: 2px solid royalblue;
+  border-radius: 5px;
+  margin-bottom: 0.3em;
+  transition: all 0.5s linear;
+}
+
+label {
+  color: royalblue;
+  position: absolute;
+  margin: 0 1em;
+  padding: 0 0.2em;
+  margin-top: 0.8em;
+  display: none;
+  background: #fff;
+  transition: all 0.5s linear;
+  transform: translateY(-25px);
+}
+
+.text-input:focus {
+  outline: none;
+}
+.form-control:focus-within label {
+  display: block;
+  margin-top: 0.8em;
+}
+
+.text-input:focus::placeholder {
+  color: transparent;
+}
+
+.link-1 {
+  color: royalblue;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.text-container {
+  color: #595959;
+  margin-bottom: 2em;
+}
+
+.text-container a {
+  color: royalblue;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-container a {
+  color: royalblue;
+}
+
+.btn {
+  background: royalblue;
+  padding: 0.5em 1.7em;
+  border: 0;
+  color: #fff;
+  transition: all 0.3s linear;
+}
+
+.btn:hover {
+  background-color: rgb(4, 50, 188);
+}
